@@ -6,6 +6,7 @@
 .main {
     width: 100%;
     height: 150vh;
+    position: relative;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -19,7 +20,8 @@
     justify-content: space-around;
     align-items:center;
     height: 4em;
-    background-color:transparent;
+    position: fixed;
+   
 }
 .second {
     width: 30%;
@@ -52,6 +54,7 @@
     display: flex;
 }
 .heading h1 {
+    margin-top: 60px;
     font-size: 70px;
     line-height: 1.5em;
     margin-left: 40px;
@@ -83,7 +86,7 @@
 }
 .two{
     font-size: 40px;
-    margin-top: 0px;
+    margin-top: 40px;
     margin-left: 30px;
     
 }
@@ -113,7 +116,8 @@
 .most {
     width: 100%;
     height: 164px;
-    margin-top: 700px;
+    margin-top: 750px;
+    position: relative;
 }
 .most h2 {
     font-size: 50px;
